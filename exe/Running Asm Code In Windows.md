@@ -1,7 +1,9 @@
 
 While using Windows OS, we often run programs using .exe files. But how can we create an .exe file, what is inside an .exe file and how does Windows run it?
 
-![[board.png]]
+<p align="center">
+  <img src="./board.png" />
+</p>
 
 
 In assembly code, we usually have `.data`, `.text`, and a `main` section. By using an assembler like NASM, we convert this assembly code into object code. Object code is a raw version of an executable file and is the machine language representation of the assembly code. Object code needs a linker to be converted into an executable file.
